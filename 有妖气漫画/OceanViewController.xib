@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OceanViewController">
+            <connections>
+                <outlet property="nameLabel" destination="19b-0x-iOw" id="LoH-xW-uHG"/>
+                <outlet property="photoBtn" destination="5eX-zl-Spc" id="cFw-B9-Vh8"/>
+                <outlet property="photoLabel" destination="19b-0x-iOw" id="8Ld-aY-Zv2"/>
+                <outlet property="shezhiBtn" destination="Y8g-BL-V7F" id="oY6-Zb-kec"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="vipBtn" destination="Vht-z6-zHc" id="IqT-A1-lth"/>
+                <outlet property="zhuxiaoButton" destination="cvL-zH-jOH" id="QLT-0Z-SbE"/>
+                <outlet property="zhuyeBtn" destination="ugB-8S-JDH" id="iJO-dA-V5z"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eX-zl-Spc" userLabel="头像">
+                    <rect key="frame" x="46" y="47" width="84" height="81"/>
+                    <state key="normal" backgroundImage="login_default_icon@2x副本">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vht-z6-zHc" userLabel="VIP">
+                    <rect key="frame" x="67" y="284" width="43" height="59"/>
+                    <state key="normal" backgroundImage="屏幕快照 2016-01-26 上午11.46.05.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="喵~登录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19b-0x-iOw">
+                    <rect key="frame" x="0.0" y="152" width="183" height="25"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8g-BL-V7F" userLabel="设置">
+                    <rect key="frame" x="67" y="378" width="43" height="58"/>
+                    <state key="normal" backgroundImage="屏幕快照 2016-01-26 上午11.46.18.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvL-zH-jOH">
+                    <rect key="frame" x="17" y="459" width="166" height="29"/>
+                    <state key="normal" title="注销" backgroundImage="login_click_n"/>
+                    <state key="highlighted" image="login_click_h"/>
+                    <connections>
+                        <action selector="zhuxiaoBtn:" destination="-1" eventType="touchUpInside" id="DvX-72-xAr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugB-8S-JDH" userLabel="首页">
+                    <rect key="frame" x="67" y="194" width="43" height="57"/>
+                    <state key="normal" backgroundImage="屏幕快照 2016-01-26 上午11.45.48.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="204" y="312"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="login_click_h" width="252" height="50"/>
+        <image name="login_click_n" width="252" height="50"/>
+        <image name="login_default_icon@2x副本" width="201" height="200"/>
+        <image name="屏幕快照 2016-01-26 上午11.45.48.png" width="52" height="71"/>
+        <image name="屏幕快照 2016-01-26 上午11.46.05.png" width="43" height="69"/>
+        <image name="屏幕快照 2016-01-26 上午11.46.18.png" width="50" height="72"/>
+    </resources>
+</document>

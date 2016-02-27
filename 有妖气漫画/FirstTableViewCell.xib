@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="126" id="KGk-i7-Jjw" customClass="FirstTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="001.png" translatesAutoresizingMaskIntoConstraints="NO" id="ViV-kj-1lW">
+                        <rect key="frame" x="102" y="34" width="15" height="15"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghL-76-KvI">
+                        <rect key="frame" x="128" y="31" width="81" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.62352941176470589" green="0.67843137254901964" blue="0.5607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="002.png" translatesAutoresizingMaskIntoConstraints="NO" id="Du5-QT-2ec">
+                        <rect key="frame" x="102" y="82" width="15" height="15"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJg-nP-KVP">
+                        <rect key="frame" x="126" y="80" width="181" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.58823529411764708" green="0.65490196078431373" blue="0.52549019607843139" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="003.png" translatesAutoresizingMaskIntoConstraints="NO" id="iQn-l9-ISf">
+                        <rect key="frame" x="217" y="33" width="15" height="15"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuO-qE-FqB">
+                        <rect key="frame" x="242" y="30" width="100" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59215686274509804" green="0.6588235294117647" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="更新到" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2a-Fb-FPZ">
+                        <rect key="frame" x="102" y="57" width="39" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dat-Yp-zbz">
+                        <rect key="frame" x="8" y="8" width="86" height="94"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4k-Tp-9oz">
+                        <rect key="frame" x="149" y="55" width="198" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="005.png" translatesAutoresizingMaskIntoConstraints="NO" id="PVh-gz-S4e">
+                        <rect key="frame" x="330" y="-1" width="45" height="30"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRd-w8-xYu">
+                        <rect key="frame" x="102" y="12" width="182" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="coverImageView" destination="Dat-Yp-zbz" id="nDR-xP-26U"/>
+                <outlet property="extraValueLabel" destination="GJg-nP-KVP" id="RQa-c9-OUT"/>
+                <outlet property="is_dujiaimageView" destination="PVh-gz-S4e" id="4D2-0l-S7b"/>
+                <outlet property="last_update_chapter_nameLabel" destination="J4k-Tp-9oz" id="Obu-fh-h04"/>
+                <outlet property="nameLabel" destination="FRd-w8-xYu" id="Js8-yw-MKs"/>
+                <outlet property="nicknameLabel" destination="ghL-76-KvI" id="a7T-Gj-LDS"/>
+                <outlet property="tagsLabel" destination="RuO-qE-FqB" id="Tvz-Cq-gVn"/>
+            </connections>
+            <point key="canvasLocation" x="117.5" y="420"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="001.png" width="40" height="40"/>
+        <image name="002.png" width="40" height="40"/>
+        <image name="003.png" width="40" height="40"/>
+        <image name="005.png" width="72" height="53"/>
+    </resources>
+</document>
